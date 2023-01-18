@@ -1,0 +1,180 @@
+* {
+    margin: 0%;
+}
+
+#navigation a:hover {
+    border: #ffff;
+    border-top: #f26f21;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.navbar-nav {
+    padding-left: 30%;
+    font-size: 1.2em;
+    font-weight: 150;
+}
+
+#navigation {
+    z-index: 999;
+    position: fixed;
+
+
+}
+
+#bannerto {
+    position: relative;
+    top: 6.5em;
+
+}
+
+.card img {
+    transition: .70s;
+}
+
+.card-body a:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+#article,
+#article h1 {
+    font-style: normal;
+    font-weight: 150;
+    color: rgb(240, 118, 11);
+}
+
+.sectionheading {
+    color: rgb(240, 118, 11);
+    text-align: center;
+}
+
+.sectionheading ::before {
+    content: "";
+    display: block;
+    width: 30%;
+    height: 1px;
+    background-color: rgb(240, 118, 11);
+    position: relative;
+    left: 8%;
+    top: .75em;
+}
+
+.sectionheading ::after {
+    content: "";
+    display: block;
+    width: 30%;
+    height: .8px;
+    background-color: rgb(240, 118, 11);
+    position: relative;
+    left: 63%;
+    top: -.5em;
+}
+
+#foot1 {
+    background-color: #e5567d;
+    margin-bottom: 0%;
+}
+
+#foot2 {
+    background-color: #f26f21;
+    color: #ffff;
+    margin-top: 0%;
+}
+
+footer {
+    margin: 0%;
+}
+
+.card-title {
+    color: #f26f21;
+}
+
+.card img:hover {
+    width: 110%;
+}
+
+.btn {
+    background-color: #f26f21;
+    color: #ffff;
+}
+
+@media screen and (max-width: 1370px) {
+    #bsah1 {
+        color: rgb(240, 118, 11);
+        font-size: 25px;
+    }
+
+    .sectionheading ::before {
+        content: "";
+        display: block;
+        width: 40%;
+        height: 1px;
+        background-color: rgb(240, 118, 11);
+        position: relative;
+        left: 0%;
+        top: .75em;
+    }
+
+    .sectionheading ::after {
+        content: "";
+        display: block;
+        width: 40%;
+        height: .8px;
+        background-color: rgb(240, 118, 11);
+        position: relative;
+        left: 60%;
+        top: -.5em;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .sectionheading ::before {
+        content: "";
+        display: block;
+        width: 30%;
+        height: 1px;
+        background-color: rgb(240, 118, 11);
+        position: relative;
+        left: 5%;
+        top: .75em;
+    }
+
+    .sectionheading ::after {
+        content: "";
+        display: block;
+        width: 30%;
+        height: .8px;
+        background-color: rgb(240, 118, 11);
+        position: relative;
+        left: 65%;
+        top: -.5em;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    .sectionheading ::before {
+        content: "";
+        display: block;
+        width: 25%;
+        height: 1px;
+        background-color: rgb(240, 118, 11);
+        position: relative;
+        left: -3%;
+        top: .75em;
+    }
+
+    .sectionheading ::after {
+        content: "";
+        display: block;
+        width: 25%;
+        height: .8px;
+        background-color: rgb(240, 118, 11);
+        position: relative;
+        left: 80%;
+        top: -.5em;
+    }
+}
